@@ -1,4 +1,4 @@
-const posts = [
+let posts = [
     {
         "id": 1,
         "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
@@ -55,3 +55,10 @@ const posts = [
         "created": "2021-03-05"
     }
 ];
+
+
+for(let i=0; i<posts.length; i++){
+    console.log([i]);
+    const photo = document.getElementById("post__image").innerHTML("author.image")
+}
+    
